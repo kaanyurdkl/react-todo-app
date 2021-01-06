@@ -1,0 +1,92 @@
+.todo{
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    border-bottom: .1rem solid;
+    border-bottom-color: var(--color-default);
+    margin-bottom: 3rem;
+    overflow: hidden;
+}
+
+.todo--completed{
+    border-bottom-color: var(--color-secondary);
+}
+
+.todo__context{
+    display: inline-block;
+    background-color: transparent;
+    font-size: var(--fontSize-md);
+    font-family: Montserrat, sans-serif;
+    color: var(--color-default);
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 2rem;
+    line-height: 2.5rem;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin-left: 0;
+    transition:0.5s ease-in-out;
+    word-wrap: break-word;
+}
+
+.todo__context--completed{
+    color: var(--color-secondary);
+    left: 3rem;
+    margin-left: .5rem;
+}
+
+.todo__button--status{
+    display: inline-block;
+    background-color: var(--color-secondary);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: calc(100% - 6rem);
+    cursor: pointer;
+    transition: .5s ease-in-out,
+                background-color .2s ease-in-out;
+}
+
+.todo__button--status:hover,
+.todo__button--status:active{
+    background-color: var(--color-secondary-dark);
+}
+
+.todo__button--status--completed{
+    left: 0;
+}
+
+.todo__button--delete{
+    display: inline-block;
+    background-color: var(--color-tertiary);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: calc(100% - 3rem);
+    cursor: pointer;
+    transition:0.5s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.todo__button--delete:hover,
+.todo__button--delete:active{
+    background-color: var(--color-tertiary-dark);
+}
+
+.todo__icon--check{
+    color: var(--color-primary);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.todo__icon--delete{
+    color: var(--color-primary);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
