@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-todo-app/static/css/main.599183ff.chunk.css",
+    "main.js": "/react-todo-app/static/js/main.8779c97f.chunk.js",
+    "main.js.map": "/react-todo-app/static/js/main.8779c97f.chunk.js.map",
+    "runtime-main.js": "/react-todo-app/static/js/runtime-main.bc1126c5.js",
+    "runtime-main.js.map": "/react-todo-app/static/js/runtime-main.bc1126c5.js.map",
+    "static/js/2.193c6257.chunk.js": "/react-todo-app/static/js/2.193c6257.chunk.js",
+    "static/js/2.193c6257.chunk.js.map": "/react-todo-app/static/js/2.193c6257.chunk.js.map",
+    "index.html": "/react-todo-app/index.html",
+    "static/css/main.599183ff.chunk.css.map": "/react-todo-app/static/css/main.599183ff.chunk.css.map",
+    "static/js/2.193c6257.chunk.js.LICENSE.txt": "/react-todo-app/static/js/2.193c6257.chunk.js.LICENSE.txt",
+    "static/media/CircleBottom.a81a8883.svg": "/react-todo-app/static/media/CircleBottom.a81a8883.svg",
+    "static/media/CircleMiddle.3745f1b7.svg": "/react-todo-app/static/media/CircleMiddle.3745f1b7.svg",
+    "static/media/CircleRight.a99e756c.svg": "/react-todo-app/static/media/CircleRight.a99e756c.svg",
+    "static/media/CircleTop.e99b61bf.svg": "/react-todo-app/static/media/CircleTop.e99b61bf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc1126c5.js",
+    "static/js/2.193c6257.chunk.js",
+    "static/css/main.599183ff.chunk.css",
+    "static/js/main.8779c97f.chunk.js"
+  ]
+}
